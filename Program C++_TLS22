@@ -37,7 +37,6 @@ int main()
             cout<<"Masukan nilai rupiah : ";cin>>rupiah;
             dollar = rupiah*0.000066;
             cout<<"Nilai Dollar   : "<<dollar<<endl;
-            
         
         }
         cout<<endl;
