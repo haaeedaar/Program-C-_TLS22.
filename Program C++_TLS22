@@ -40,7 +40,7 @@ int main()
         
         }
         cout<<endl;
-        cout << "Ingin memengulangi (y/t)? ";
+        cout << "Ingin mengulangi (y/t)? ";
         cin >> ulang;
         cout << endl;
     }
