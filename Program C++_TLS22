@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int pilih;
+    char ulang;
+    do
+    {
+        long rupiah;
+        double dollar; int pilih;
+        cout<<"=============================================="<<endl;  
+        cout<<"\tKonversi Mata Uang"<<endl;  
+        cout<<"=============================================="<<endl; 
+        cout<<"1. Dollar Amerika ke Rupiah"<<endl;
+        cout<<"2. Rupiah ke Dollar Amerika"<<endl;
+        cout<<"=============================================="<<endl;
+        cout<<endl;
+        cout<<"Masukan pilihan  : ";cin>>pilih;
+        cout<<endl;
+        cout<<"=============================================="<<endl;
+        
+        if (pilih==1)
+        {
+            cout<<"\n1. Dollar Amerika ke Rupiah"<<endl;
+            cout<<"----------------------------------------------"<<endl;
+            cout<<"Masukan nilai dollar  : ";cin>>dollar;
+            rupiah = dollar*15000;
+            cout<<"Nilai Rupiah  : "<<rupiah<<endl;
+            
+        }
+        
+        else if(pilih==2)
+        {
+            cout<<"\n2. Rupiah ke Dollar Amerika"<<endl;
+            cout<<"Masukan nilai rupiah : ";cin>>rupiah;
+            dollar = rupiah*0.000066;
+            cout<<"Nilai Dollar   : "<<dollar<<endl;
+            
+        
+        }
+        cout<<endl;
+        cout << "Ingin memengulangi (y/t)? ";
+        cin >> ulang;
+        cout << endl;
+    }
+    while (ulang!= 't');
+    cout<<"=============================================="<<endl;
+    cout<<"\tTerimakasih"<<endl;
+    cout<<"=============================================="<<endl;
+    cout<<endl;
+   return 0;
+}
